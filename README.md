@@ -3,8 +3,8 @@
 ```
 $env:HAB_DOCKER_OPTS="-p 8080:8080"
 hab studio enter
-hab start mwrock/np-mongodb
-hab start mwrock/national-parks --bind database:np-mongodb.default
+hab start trickyearlobe/np-mongodb
+hab start trickyearlobe/national-parks --bind database:np-mongodb.default
 ```
 
 Open your browser to `https://localhost:8080/national-parks` to see the app.
