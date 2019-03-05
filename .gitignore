@@ -7,3 +7,6 @@ results/
 *.tfstate
 *.tfvars
 terraform.tfstate.backup
+.project
+.settings/
+.classpath
